@@ -1,0 +1,13 @@
+同第1題，
+讀取image Fig0427(a)(woman).tif，
+
+利用matlab的內建函數fft2()，
+it returns the two-dimensional Fourier transform of a matrix，
+
+接著為了使DC值在正中央，
+使用matlab內建函數fftshift()，
+it rearranges a Fourier transform  by shifting the zero-frequency component 
+to the center of the array.
+
+接著如同第1題，
+利用abs()和angle()取得magnitue及phase。

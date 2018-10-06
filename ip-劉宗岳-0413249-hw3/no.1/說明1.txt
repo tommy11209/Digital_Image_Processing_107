@@ -1,0 +1,8 @@
+讀取所需要的image，
+imread('C:\Users\user\Desktop\Fig0427(a)(woman).tif');
+
+
+接著利用matlab的內建函數fft2()，
+it returns the two-dimensional Fourier transform of a matrix，
+接著使用函數abs() 和 angle() ，
+即可分別求得magnitude 和 phase。 

@@ -1,0 +1,17 @@
+資料夾中有4個檔案，
+其中modified為改動後的圖及直方圖，
+original為原圖及直方圖。
+
+在matlab中，
+使用以下這段code，
+im = imread('C:\Users\user\Desktop\HW2_einstein_orig.tif');
+
+im1 = histeq(im);
+figure;
+imshow(im1);
+figure;
+imhist(im1);
+
+利用matlab中的"histeq()"這個function，
+便可得到經過Histogram Equalization 後的image及直方圖。
+
